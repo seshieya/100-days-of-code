@@ -1,7 +1,19 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: May 17, 2020
+##### Goals Brainstorming
+
+- Ultimate goal is to improve on overall skill set in terms of designing the code and getting faster at it - in the C# language and Javascript
+
+- Work on some neat interactive JS solutions - perhaps some taken from here https://javascript30.com/
+- Develop a simple game by starting with some activities here: https://www.codingame.com/
+- Brush up on algorithms by doing some coding interview questions: either from the Cracking the coding interview or doing some from https://leetcode.com/
+https://leetcode.com/explore/other/card/30-day-leetcoding-challenge
+- more simple coding project ideas? https://www.reddit.com/r/learnprogramming/comments/2a9ygh/1000_beginner_programming_projects_xpost/??
+- work on wallite app?
+- work on new deals site idea?
+
+
 
 **Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
 

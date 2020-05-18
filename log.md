@@ -7,11 +7,14 @@
 
 - Work on some neat interactive JS solutions - perhaps some taken from here https://javascript30.com/
 - Develop a simple game by starting with some activities here: https://www.codingame.com/
+  - https://www.codementor.io/@dewetvanthomas/tutorial-game-loop-for-c-128ovxgrig
+  - https://www.youtube.com/watch?v=XOJErrCyt5A&vl=de
 - Brush up on algorithms by doing some coding interview questions: either from the Cracking the coding interview or doing some from https://leetcode.com/
 https://leetcode.com/explore/other/card/30-day-leetcoding-challenge
 - more simple coding project ideas? https://www.reddit.com/r/learnprogramming/comments/2a9ygh/1000_beginner_programming_projects_xpost/??
 - work on wallite app?
 - work on new deals site idea?
+- learn how to use unity?
 
 
 

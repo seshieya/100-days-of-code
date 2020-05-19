@@ -1,21 +1,41 @@
 # 100 Days Of Code - Log
 
 ### Day 0: May 17, 2020
-##### Goals Brainstorming
 
-- Ultimate goal is to improve on overall skill set in terms of designing the code and getting faster at it - in the C# language and Javascript
+**Today's Focus**: Goals Brainstorming
 
-- Work on some neat interactive JS solutions - perhaps some taken from here https://javascript30.com/
-- Develop a simple game by starting with some activities here: https://www.codingame.com/
-  - https://www.codementor.io/@dewetvanthomas/tutorial-game-loop-for-c-128ovxgrig
-  - https://www.youtube.com/watch?v=XOJErrCyt5A&vl=de
-- Brush up on algorithms by doing some coding interview questions: either from the Cracking the coding interview or doing some from https://leetcode.com/
-https://leetcode.com/explore/other/card/30-day-leetcoding-challenge
-- more simple coding project ideas? https://www.reddit.com/r/learnprogramming/comments/2a9ygh/1000_beginner_programming_projects_xpost/??
-- work on wallite app?
-- work on new deals site idea?
-- learn how to use unity?
+**Progress**:
 
+- Ideas for what kind of projects / goals I would like to accomplish during this challenge:
+  - Ultimate goal is to improve on overall skill set in terms of designing the code and getting faster at it - in the C# language and Javascript
+  - Work on some neat interactive JS solutions - perhaps some taken from here https://javascript30.com/
+  - Develop a simple game by starting with some activities here: https://www.codingame.com/
+    - Possible tutorials to do?: 
+      - https://www.codementor.io/@dewetvanthomas/tutorial-game-loop-for-c-128ovxgrig
+      - https://www.youtube.com/watch?v=XOJErrCyt5A&vl=de
+  - Brush up on algorithms by doing some coding interview questions: 
+    - either from the Cracking the coding interview 
+    - or doing some from https://leetcode.com/ (https://leetcode.com/explore/other/card/30-day-leetcoding-challenge)
+  - more simple coding project ideas? https://www.reddit.com/r/learnprogramming/comments/2a9ygh/1000_beginner_programming_projects_xpost/??
+  - work on wallite app?
+  - work on new deals site idea?
+  - learn how to use unity?
+
+- Brainstorm Session Conclusion:
+  - Decided to start with working the commerce deals project that I have been thinking about recently. 
+    - I wanted to create something that I would use on a daily basis, and that other people might find useful too, so this deals project meets both criteria.
+    - started thinking about possible names to call the site
+    - made a simple wireframe (on paper) of what the site could look like
+    - decided on using React for the frontend instead of using Razor pages to try it out in ASP.NET Core
+
+### Day 1: May 18, 2020
+
+**Today's Focus**: Integrate with external API
+**Progress**: 
+- Tried hooking up a quick console app to work with external API unsuccessfully. For some reason the console app launches on a random port, which the Gmail API cannot authenticate with because the port is not a valid redirect URL
+- Need to troubleshoot more tomorrow
+
+**Links to work**: None for today as just testing with a console app for now
 
 <!--
 **Today's Progress**: Fixed CSS, worked on canvas functionality for the app.

@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+**[Goals for the 100 days](#day-0)**
+
+|Day|Focus|Day|Focus|
+|:---:|:-----:|:---:|:-----:|
+|[Day 1](#day-1) **05/18/2020**|Integrate with external API|[Day 2](#day-2) **05/19/2020**|Continue with integrating external API|
+
+----------
+
+<a name="day-0"></a>
 ### Day 0: May 17, 2020
 
 **Today's Focus**: Goals Brainstorming
@@ -28,14 +37,29 @@
     - made a simple wireframe (on paper) of what the site could look like
     - decided on using React for the frontend instead of using Razor pages to try it out in ASP.NET Core
 
+<a name="day-1"></a>
 ### Day 1: May 18, 2020
 
 **Today's Focus**: Integrate with external API
+
 **Progress**: 
-- Tried hooking up a quick console app to work with external API unsuccessfully. For some reason the console app launches on a random port, which the Gmail API cannot authenticate with because the port is not a valid redirect URL
+
+- Tried hooking up a quick console app to work with external API unsuccessfully. For some reason the console app launches on a random port, which the external API cannot authenticate with because the port is not a valid redirect URL
 - Need to troubleshoot more tomorrow
 
 **Links to work**: None for today as just testing with a console app for now
+
+<a name="day-2"></a>
+### Day 2: May 19, 2020
+
+**Today's Focus**: Continue with integrating external API
+
+**Progress**: 
+
+- Got the console app to hook up to the external API directly. All that had to be done was assign the return url with no port number... which was not documented in the docs... :(
+- Started integrating external service to Deals app
+
+**Links to work**: [Deals](https://github.com/seshieya/WooDeals/commit/eb0b8a3a374c60c1b457353ff769f6639fdfba64)
 
 <!--
 **Today's Progress**: Fixed CSS, worked on canvas functionality for the app.

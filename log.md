@@ -5,6 +5,7 @@
 |Day|Focus|Day|Focus|
 |:---:|:-----:|:---:|:-----:|
 |[Day 1](#day-1) **05/18/2020**|Integrate with external API|[Day 2](#day-2) **05/19/2020**|Continue with integrating external API|
+|[Day 3](#day-3) **05/20/2020**|Integrate with external API|
 
 ----------
 
@@ -60,6 +61,18 @@
 - Started integrating external service to Deals app
 
 **Links to work**: [Deals](https://github.com/seshieya/WooDeals/commit/eb0b8a3a374c60c1b457353ff769f6639fdfba64)
+
+<a name="day-3"></a>
+### Day 3: May 30, 2020
+
+**Today's Focus**: Researched how to make authorization long lived with the external API
+
+**Progress**: 
+
+- Found there is possibility to use API keys instead of OAuth
+- Continued to integrate external service to Deals app
+
+**Links to work**: [Deals](https://github.com/seshieya/WooDeals/commit/05d7b68ac580cc1338948828c171dc560b713a56)
 
 <!--
 **Today's Progress**: Fixed CSS, worked on canvas functionality for the app.

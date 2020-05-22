@@ -5,7 +5,7 @@
 |Day|Focus|Day|Focus|
 |:---:|:-----:|:---:|:-----:|
 |[Day 1](#day-1) **05/18/2020**|Integrate with external API|[Day 2](#day-2) **05/19/2020**|Continue with integrating external API|
-|[Day 3](#day-3) **05/20/2020**|Integrate with external API|
+|[Day 3](#day-3) **05/20/2020**|Research making API authorization long lived|[Day 4](#day-4) **05/21/2020**|Complete initial integration with external API|
 
 ----------
 
@@ -63,7 +63,7 @@
 **Links to work**: [Deals](https://github.com/seshieya/WooDeals/commit/eb0b8a3a374c60c1b457353ff769f6639fdfba64)
 
 <a name="day-3"></a>
-### Day 3: May 30, 2020
+### Day 3: May 20, 2020
 
 **Today's Focus**: Researched how to make authorization long lived with the external API
 
@@ -73,6 +73,18 @@
 - Continued to integrate external service to Deals app
 
 **Links to work**: [Deals](https://github.com/seshieya/WooDeals/commit/05d7b68ac580cc1338948828c171dc560b713a56)
+
+<a name="day-4"></a>
+### Day 4: May 21, 2020
+
+**Today's Focus**: Complete initial integration with external API
+
+**Progress**: 
+
+- Got external API quickstart integrated into Startup and registered with my own service and it works
+- May not be able to use API keys after all, seems like API keys are for another service and not for the one I'm integrating with. Still need to look more into this
+
+**Links to work**: [Deals](https://github.com/seshieya/WooDeals/commit/baca35fbe65272b1940cf21dbc2f90354ab8db19)
 
 <!--
 **Today's Progress**: Fixed CSS, worked on canvas functionality for the app.

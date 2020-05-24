@@ -6,6 +6,7 @@
 |:---:|:-----:|:---:|:-----:|
 |[Day 1](#day-1) **05/18/2020**|Integrate with external API|[Day 2](#day-2) **05/19/2020**|Continue with integrating external API|
 |[Day 3](#day-3) **05/20/2020**|Research making API authorization long lived|[Day 4](#day-4) **05/21/2020**|Complete initial integration with external API|
+|[Day 5](#day-5) **05/23/2020**|Obtain messages|
 
 ----------
 
@@ -86,7 +87,45 @@
 
 **Links to work**: [Deals](https://github.com/seshieya/WooDeals/commit/baca35fbe65272b1940cf21dbc2f90354ab8db19)
 
+<a name="day-5"></a>
+### Day 5: May 23, 2020
+
+**Today's Focus**: Obtain messages
+
+**Progress**: 
+
+- Dug through the docs and definitely cannot use API keys, because API keys do not allow accessing private data. They are only used to discover other apis the external service has
+- Added support to get messageIds and fetch messages (initial implementation, still needs a lot of work (see todos in code))
+
+**Links to work**: [Deals](https://github.com/seshieya/WooDeals/commit/1868b7a6224cb19f7bd079b37f0b97a1a8774e30)
+
+**Todo Tomorrow**:
+
+- Look at Message object in DB to decide which parts are useful to save in the DB
+- Add mysql DB and create schema and tables through migrations
 <!--
+template
+
+<a name="day-"></a>
+### Day : May , 2020
+
+**Today's Focus**: 
+
+**Progress**: 
+
+- 
+
+**Links to work**: [Deals]()
+
+**Todo Tomorrow**:
+
+- 
+
+
+-----
+
+
+
 **Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
 
 **Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.

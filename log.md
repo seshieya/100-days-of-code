@@ -6,7 +6,7 @@
 |:---:|:-----:|:---:|:-----:|
 |[Day 1](#day-1) **05/18/2020**|Integrate with external API|[Day 2](#day-2) **05/19/2020**|Continue with integrating external API|
 |[Day 3](#day-3) **05/20/2020**|Research making API authorization long lived|[Day 4](#day-4) **05/21/2020**|Complete initial integration with external API|
-|[Day 5](#day-5) **05/23/2020**|Obtain messages|
+|[Day 5](#day-5) **05/23/2020**|Obtain messages|[Day 6](#day-6) **05/24/2020**|Create DB|
 
 ----------
 
@@ -103,6 +103,24 @@
 
 - Look at Message object in DB to decide which parts are useful to save in the DB
 - Add mysql DB and create schema and tables through migrations
+
+<a name="day-6"></a>
+### Day : May 24, 2020
+
+**Today's Focus**: Create DB
+
+**Progress**: 
+
+- Didn't get very far in creating the DB, but instead got side-tracked and started looking at hosting providers. Maybe will dockerize the project and host it on a VPS instead of using a shared hosting service...
+- For the messages, will likely store subject and any disclaimers in the DB
+
+**Links to work**: None today as mostly research
+
+**Todo Tomorrow**:
+
+- Add mysql DB and create schema and tables through migrations
+
+
 <!--
 template
 

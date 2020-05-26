@@ -7,6 +7,7 @@
 |[Day 1](#day-1) **05/18/2020**|Integrate with external API|[Day 2](#day-2) **05/19/2020**|Continue with integrating external API|
 |[Day 3](#day-3) **05/20/2020**|Research making API authorization long lived|[Day 4](#day-4) **05/21/2020**|Complete initial integration with external API|
 |[Day 5](#day-5) **05/23/2020**|Obtain messages|[Day 6](#day-6) **05/24/2020**|Create DB|
+|[Day 7](#day-7) **05/25/2020**|Hook up to MySQL|
 
 ----------
 
@@ -105,7 +106,7 @@
 - Add mysql DB and create schema and tables through migrations
 
 <a name="day-6"></a>
-### Day : May 24, 2020
+### Day 6: May 24, 2020
 
 **Today's Focus**: Create DB
 
@@ -119,6 +120,23 @@
 **Todo Tomorrow**:
 
 - Add mysql DB and create schema and tables through migrations
+
+<a name="day-7"></a>
+### Day 7: May 25, 2020
+
+**Today's Focus**: Hook up to MySQL
+
+**Progress**: 
+
+- Decided between MySQL or MSSQL. Will use mysql since community edition is free for production use. Might release Deals site to the public
+- Installed mysql server to local machine
+- Added class entities and configuration to DB context
+
+**Links to work**: [Deals](https://github.com/seshieya/WooDeals/commit/3f08161fa02af9b66d24a3844dba5c0777374453)
+
+**Todo Tomorrow**:
+
+- Generate migrations for entities
 
 
 <!--

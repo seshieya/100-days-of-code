@@ -6,8 +6,8 @@
 |:---:|:-----:|:---:|:-----:|
 |[Day 1](#day-1) **05/18/2020**|Integrate with external API|[Day 2](#day-2) **05/19/2020**|Continue with integrating external API|
 |[Day 3](#day-3) **05/20/2020**|Research making API authorization long lived|[Day 4](#day-4) **05/21/2020**|Complete initial integration with external API|
-|[Day 5](#day-5) **05/23/2020**|Obtain messages|[Day 6](#day-6) **05/24/2020**|Create DB|
-|[Day 7](#day-7) **05/25/2020**|Hook up to MySQL|
+|[Day 5](#day-5) **05/23/2020**|Obtain notes|[Day 6](#day-6) **05/24/2020**|Create DB|
+|[Day 7](#day-7) **05/25/2020**|Hook up to MySQL|[Day 8](#day-8) **05/27/2020**|Initial Parsing of Notes|
 
 ----------
 
@@ -30,12 +30,12 @@
     - or doing some from https://leetcode.com/ (https://leetcode.com/explore/other/card/30-day-leetcoding-challenge)
   - more simple coding project ideas? https://www.reddit.com/r/learnprogramming/comments/2a9ygh/1000_beginner_programming_projects_xpost/??
   - work on wallite app?
-  - work on new deals site idea?
+  - work on new resources site idea?
   - learn how to use unity?
 
 - Brainstorm Session Conclusion:
-  - Decided to start with working the commerce deals project that I have been thinking about recently. 
-    - I wanted to create something that I would use on a daily basis, and that other people might find useful too, so this deals project meets both criteria.
+  - Decided to start with working the resources project that I have been thinking about recently. 
+    - I wanted to create something that I would use on a daily basis, and that other people might find useful too, so this resources project meets both criteria.
     - started thinking about possible names to call the site
     - made a simple wireframe (on paper) of what the site could look like
     - decided on using React for the frontend instead of using Razor pages to try it out in ASP.NET Core
@@ -60,9 +60,9 @@
 **Progress**: 
 
 - Got the console app to hook up to the external API directly. All that had to be done was assign the return url with no port number... which was not documented in the docs... :(
-- Started integrating external service to Deals app
+- Started integrating external service to resources app
 
-**Links to work**: [Deals](https://github.com/seshieya/WooDeals/commit/eb0b8a3a374c60c1b457353ff769f6639fdfba64)
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/eb0b8a3a374c60c1b457353ff769f6639fdfba64)
 
 <a name="day-3"></a>
 ### Day 3: May 20, 2020
@@ -72,9 +72,9 @@
 **Progress**: 
 
 - Found there is possibility to use API keys instead of OAuth
-- Continued to integrate external service to Deals app
+- Continued to integrate external service to resources app
 
-**Links to work**: [Deals](https://github.com/seshieya/WooDeals/commit/05d7b68ac580cc1338948828c171dc560b713a56)
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/05d7b68ac580cc1338948828c171dc560b713a56)
 
 <a name="day-4"></a>
 ### Day 4: May 21, 2020
@@ -86,19 +86,19 @@
 - Got external API quickstart integrated into Startup and registered with my own service and it works
 - May not be able to use API keys after all, seems like API keys are for another service and not for the one I'm integrating with. Still need to look more into this
 
-**Links to work**: [Deals](https://github.com/seshieya/WooDeals/commit/baca35fbe65272b1940cf21dbc2f90354ab8db19)
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/baca35fbe65272b1940cf21dbc2f90354ab8db19)
 
 <a name="day-5"></a>
 ### Day 5: May 23, 2020
 
-**Today's Focus**: Obtain messages
+**Today's Focus**: Obtain notes
 
 **Progress**: 
 
 - Dug through the docs and definitely cannot use API keys, because API keys do not allow accessing private data. They are only used to discover other apis the external service has
-- Added support to get messageIds and fetch messages (initial implementation, still needs a lot of work (see todos in code))
+- Added support to get messageIds and fetch notes (initial implementation, still needs a lot of work (see todos in code))
 
-**Links to work**: [Deals](https://github.com/seshieya/WooDeals/commit/1868b7a6224cb19f7bd079b37f0b97a1a8774e30)
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/1868b7a6224cb19f7bd079b37f0b97a1a8774e30)
 
 **Todo Tomorrow**:
 
@@ -113,7 +113,7 @@
 **Progress**: 
 
 - Didn't get very far in creating the DB, but instead got side-tracked and started looking at hosting providers. Maybe will dockerize the project and host it on a VPS instead of using a shared hosting service...
-- For the messages, will likely store subject and any disclaimers in the DB
+- For the notes, will likely store subject and any disclaimers in the DB
 
 **Links to work**: None today as mostly research
 
@@ -124,19 +124,35 @@
 <a name="day-7"></a>
 ### Day 7: May 25, 2020
 
-**Today's Focus**: Hook up to MySQL
+**Today's Focus**: Hook up MySQL
 
 **Progress**: 
 
-- Decided between MySQL or MSSQL. Will use mysql since community edition is free for production use. Might release Deals site to the public
+- Decided between MySQL or MSSQL. Will use MySQL since community edition is free for production use. Might release resources site to the public
 - Installed mysql server to local machine
 - Added class entities and configuration to DB context
 
-**Links to work**: [Deals](https://github.com/seshieya/WooDeals/commit/3f08161fa02af9b66d24a3844dba5c0777374453)
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/3f08161fa02af9b66d24a3844dba5c0777374453)
 
 **Todo Tomorrow**:
 
 - Generate migrations for entities
+
+<a name="day-8"></a>
+### Day 8: May 27, 2020
+
+**Today's Focus**: Initial Parsing of Notes
+
+**Progress**: 
+
+- Studied what the notes objects returns and determined which fields can be parsed and saved to the database
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/b1022f8eceaf866c5245cad1f3fc6b340c3c4fb2)
+
+**Todo Tomorrow**:
+
+- Write parsers for different kinds of notes
+- Add the brand name to the note db
 
 
 <!--
@@ -151,7 +167,7 @@ template
 
 - 
 
-**Links to work**: [Deals]()
+**Links to work**: [resources]()
 
 **Todo Tomorrow**:
 

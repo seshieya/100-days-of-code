@@ -8,6 +8,7 @@
 |[Day 3](#day-3) **05/20/2020**|Research making API authorization long lived|[Day 4](#day-4) **05/21/2020**|Complete initial integration with external API|
 |[Day 5](#day-5) **05/23/2020**|Obtain notes|[Day 6](#day-6) **05/24/2020**|Create DB|
 |[Day 7](#day-7) **05/25/2020**|Hook up to MySQL|[Day 8](#day-8) **05/27/2020**|Initial Parsing of Notes|
+|[Day 9](#day-9) **05/28/2020**|Error With DB Inserts|
 
 ----------
 
@@ -154,6 +155,26 @@
 - Write parsers for different kinds of notes
 - Add the brand name to the note db
 
+<a name="day-9"></a>
+### Day 9: May 28, 2020
+
+**Today's Focus**: Error With DB Inserts
+
+**Progress**: 
+
+- Seems like trying to insert 100 notes at once into the db is too much. Error suggests maybe out of memory? Didn't dig too far but reduced the load to 50 inserts and this worked
+- Added Brands enum
+- Added queries to limit the retreival of notes to certain brands
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/1b712e9038aa44f95386e84a3149d769cec925c2)
+
+**Todo Tomorrow**:
+
+- Add the brand name to the note db
+- Get the db saved info displayed on the frontend
+- Will write parser for different kinds of notes at later date
+
+
 
 <!--
 template
@@ -167,12 +188,12 @@ template
 
 - 
 
-**Links to work**: [resources]()
+**Links to work**: [Resources Project]()
 
 **Todo Tomorrow**:
 
 - 
-
+- Write parsers for different kinds of notes
 
 -----
 

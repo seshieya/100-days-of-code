@@ -8,7 +8,7 @@
 |[Day 3](#day-3) **05/20/2020**|Research making API authorization long lived|[Day 4](#day-4) **05/21/2020**|Complete initial integration with external API|
 |[Day 5](#day-5) **05/23/2020**|Obtain notes|[Day 6](#day-6) **05/24/2020**|Create DB|
 |[Day 7](#day-7) **05/25/2020**|Hook up to MySQL|[Day 8](#day-8) **05/27/2020**|Initial Parsing of Notes|
-|[Day 9](#day-9) **05/28/2020**|Error With DB Inserts|
+|[Day 9](#day-9) **05/28/2020**|Error With DB Inserts|[Day 10](#day-10) **05/30/2020**|Add Brand Name|
 
 ----------
 
@@ -174,9 +174,27 @@
 - Get the db saved info displayed on the frontend
 - Will write parser for different kinds of notes at later date
 
+<a name="day-10"></a>
+### Day 10: May 20, 2020
 
+**Today's Focus**: Add Brand Name
+
+**Progress**: 
+
+- Added brand name to the DB
+- Wrote separate brand names - one used for queries and one for display, and added conversion methods to convert the two from one type to another 
+- Commited initial migration
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/11789d4ec6c55f831790a48442ef3455037c9ba8)
+
+**Todo Tomorrow**:
+
+- Get the db saved info displayed on the frontend
 
 <!--
+
+days missed: 3 :(
+
 template
 
 <a name="day-"></a>

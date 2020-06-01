@@ -9,6 +9,7 @@
 |[Day 5](#day-5) **05/23/2020**|Obtain notes|[Day 6](#day-6) **05/24/2020**|Create DB|
 |[Day 7](#day-7) **05/25/2020**|Hook up to MySQL|[Day 8](#day-8) **05/27/2020**|Initial Parsing of Notes|
 |[Day 9](#day-9) **05/28/2020**|Error With DB Inserts|[Day 10](#day-10) **05/30/2020**|Add Brand Name|
+|[Day 11](#day-11) **05/31/2020**|Frontend Work|
 
 ----------
 
@@ -175,7 +176,7 @@
 - Will write parser for different kinds of notes at later date
 
 <a name="day-10"></a>
-### Day 10: May 20, 2020
+### Day 10: May 30, 2020
 
 **Today's Focus**: Add Brand Name
 
@@ -190,6 +191,24 @@
 **Todo Tomorrow**:
 
 - Get the db saved info displayed on the frontend
+
+<a name="day-11"></a>
+### Day 11: May 31, 2020
+
+**Today's Focus**: Frontend Work
+
+**Progress**: 
+
+- Added API endpoint to retrieve notes
+- Removed default frontend files and tried to create new react typescript project, but currently typescript template is broken for CRA... so reverted back just going to modify the existing project to be suitable for the site
+- Added initial Resources component
+
+**Links to work**: [Resources Project Commit 1](https://github.com/seshieya/WooDeals/commit/f1b5cbd1ef518ed510c762e0ca363ad8706b91c2),
+[Resources Project Commit 2](https://github.com/seshieya/WooDeals/commit/c4c72613e5c06307f6022ddce508f11b71aae512)
+
+**Todo Tomorrow**:
+
+- Clean up react project to use typescript properly and possibly start working on the Resources component
 
 <!--
 

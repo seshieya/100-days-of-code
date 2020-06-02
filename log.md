@@ -34,6 +34,7 @@
   - work on wallite app?
   - work on new resources site idea?
   - learn how to use unity?
+  - Read up on ASP.NET Core and c# topics such as using blocks... what resources need to be disposed of... etc.
 
 - Brainstorm Session Conclusion:
   - Decided to start with working the resources project that I have been thinking about recently. 

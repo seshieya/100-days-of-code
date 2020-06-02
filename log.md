@@ -9,7 +9,7 @@
 |[Day 5](#day-5) **05/23/2020**|Obtain notes|[Day 6](#day-6) **05/24/2020**|Create DB|
 |[Day 7](#day-7) **05/25/2020**|Hook up to MySQL|[Day 8](#day-8) **05/27/2020**|Initial Parsing of Notes|
 |[Day 9](#day-9) **05/28/2020**|Error With DB Inserts|[Day 10](#day-10) **05/30/2020**|Add Brand Name|
-|[Day 11](#day-11) **05/31/2020**|Frontend Work|
+|[Day 11](#day-11) **05/31/2020**|Frontend Work|[Day 12](#day-12) **06/01/2020**|Replaced Frontend|
 
 ----------
 
@@ -209,6 +209,22 @@
 **Todo Tomorrow**:
 
 - Clean up react project to use typescript properly and possibly start working on the Resources component
+
+<a name="day-12"></a>
+### Day 12: June 1, 2020
+
+**Today's Focus**: Replace Frontend with Empty Typescript CRA
+
+**Progress**: 
+
+- Figured out why typescript template was broken... it was because I had global create react app installed
+- Replaced existing frontend with empty typescript CRA
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/2feaff46f9d54f382611acfd61c3d53b21d718d4)
+
+**Todo Tomorrow**:
+
+- Work on the resources component 
 
 <!--
 

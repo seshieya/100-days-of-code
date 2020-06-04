@@ -10,6 +10,7 @@
 |[Day 7](#day-7) **05/25/2020**|Hook up to MySQL|[Day 8](#day-8) **05/27/2020**|Initial Parsing of Notes|
 |[Day 9](#day-9) **05/28/2020**|Error With DB Inserts|[Day 10](#day-10) **05/30/2020**|Add Brand Name|
 |[Day 11](#day-11) **05/31/2020**|Frontend Work|[Day 12](#day-12) **06/01/2020**|Replaced Frontend|
+|[Day 13](#day-13) **06/03/2020**|Fetch Notes from React|
 
 ----------
 
@@ -226,9 +227,24 @@
 
 - Work on the resources component 
 
+<a name="day-13"></a>
+### Day 13: June 3, 2020
+
+**Today's Focus**: Fetch Notes from React Frontend
+
+**Progress**: 
+
+- Set up react frontend to fetch notes from API :)
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/834dddd43301b1d3dc37caf1f30542d6cdf3f6f4)
+
+**Todo Tomorrow**:
+
+- Continue working on the resources component
+
 <!--
 
-days missed: 3 :(
+days missed: 4 :(
 
 template
 

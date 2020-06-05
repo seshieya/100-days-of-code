@@ -10,7 +10,7 @@
 |[Day 7](#day-7) **05/25/2020**|Hook up to MySQL|[Day 8](#day-8) **05/27/2020**|Initial Parsing of Notes|
 |[Day 9](#day-9) **05/28/2020**|Error With DB Inserts|[Day 10](#day-10) **05/30/2020**|Add Brand Name|
 |[Day 11](#day-11) **05/31/2020**|Frontend Work|[Day 12](#day-12) **06/01/2020**|Replaced Frontend|
-|[Day 13](#day-13) **06/03/2020**|Fetch Notes from React|
+|[Day 13](#day-13) **06/03/2020**|Fetch Notes from React|[Day 14](#day-14) **06/04/2020**|Display Multiple Notes in UI|
 
 ----------
 
@@ -243,6 +243,21 @@
 
 - Continue working on the resources component
 
+<a name="day-14"></a>
+### Day 14: June 4, 2020
+
+**Today's Focus**: Display Multiple Notes in UI
+
+**Progress**: 
+
+- Added reactstrap and made notes appear like a grid and also added modals
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/a09f853c79df735f7dd20aa83be190155e1af9cd)
+
+**Todo Tomorrow**:
+
+- Render strings as html and not as plain text
+
 <!--
 
 days missed: 4 :(
@@ -250,7 +265,7 @@ days missed: 4 :(
 template
 
 <a name="day-"></a>
-### Day : May , 2020
+### Day : June , 2020
 
 **Today's Focus**: 
 

@@ -11,6 +11,7 @@
 |[Day 9](#day-9) **05/28/2020**|Error With DB Inserts|[Day 10](#day-10) **05/30/2020**|Add Brand Name|
 |[Day 11](#day-11) **05/31/2020**|Frontend Work|[Day 12](#day-12) **06/01/2020**|Replaced Frontend|
 |[Day 13](#day-13) **06/03/2020**|Fetch Notes from React|[Day 14](#day-14) **06/04/2020**|Display Multiple Notes in UI|
+|[Day 15](#day-15) **06/05/2020**|Render HTML Strings|
 
 ----------
 
@@ -257,6 +258,22 @@
 **Todo Tomorrow**:
 
 - Render strings as html and not as plain text
+
+<a name="day-15"></a>
+### Day 15: June 5, 2020
+
+**Today's Focus**: Render HTML Strings
+
+**Progress**: 
+
+- Content modals to render html strings properly in the body
+- In process of figuring out best way to manage toggling state of all modals
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/cfe8db7b7ba081758137da53497a742f2028af31)
+
+**Todo Tomorrow**:
+
+- Continue management of state for modals
 
 <!--
 

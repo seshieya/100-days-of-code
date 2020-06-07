@@ -11,7 +11,7 @@
 |[Day 9](#day-9) **05/28/2020**|Error With DB Inserts|[Day 10](#day-10) **05/30/2020**|Add Brand Name|
 |[Day 11](#day-11) **05/31/2020**|Frontend Work|[Day 12](#day-12) **06/01/2020**|Replaced Frontend|
 |[Day 13](#day-13) **06/03/2020**|Fetch Notes from React|[Day 14](#day-14) **06/04/2020**|Display Multiple Notes in UI|
-|[Day 15](#day-15) **06/05/2020**|Render HTML Strings|
+|[Day 15](#day-15) **06/05/2020**|Render HTML Strings|[Day 16](#day-16) **06/06/2020**|Modal State Management|
 
 ----------
 
@@ -274,6 +274,23 @@
 **Todo Tomorrow**:
 
 - Continue management of state for modals
+
+<a name="day-16"></a>
+### Day 16: June 6, 2020
+
+**Today's Focus**:  Modal State Management
+
+**Progress**: 
+
+- Got modal state management working and styled content to fit modals
+- Replaced place holder images with proper brand images and optimized svgs
+- Cleaned up frontend code
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/5b135cfc558d4eb63e0d5cd6c0c530e74978a9e2)
+
+**Todo Tomorrow**:
+
+- Add search bar and search query
 
 <!--
 

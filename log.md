@@ -12,6 +12,7 @@
 |[Day 11](#day-11) **05/31/2020**|Frontend Work|[Day 12](#day-12) **06/01/2020**|Replaced Frontend|
 |[Day 13](#day-13) **06/03/2020**|Fetch Notes from React|[Day 14](#day-14) **06/04/2020**|Display Multiple Notes in UI|
 |[Day 15](#day-15) **06/05/2020**|Render HTML Strings|[Day 16](#day-16) **06/06/2020**|Modal State Management|
+|[Day 17](#day-17) **06/07/2020**|Add Search Bar|
 
 ----------
 
@@ -291,6 +292,22 @@
 **Todo Tomorrow**:
 
 - Add search bar and search query
+
+<a name="day-17"></a>
+### Day 17: June 7, 2020
+
+**Today's Focus**: Add Search Bar
+
+**Progress**: 
+
+- Added rough search bar (still needs styling to look pretty)
+- Moved fetching resources to resuable method
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/ad25e64e1f87bd4a3c802ab4bfae85972947e656)
+
+**Todo Tomorrow**:
+
+- Add search query
 
 <!--
 

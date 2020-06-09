@@ -12,7 +12,7 @@
 |[Day 11](#day-11) **05/31/2020**|Frontend Work|[Day 12](#day-12) **06/01/2020**|Replaced Frontend|
 |[Day 13](#day-13) **06/03/2020**|Fetch Notes from React|[Day 14](#day-14) **06/04/2020**|Display Multiple Notes in UI|
 |[Day 15](#day-15) **06/05/2020**|Render HTML Strings|[Day 16](#day-16) **06/06/2020**|Modal State Management|
-|[Day 17](#day-17) **06/07/2020**|Add Search Bar|
+|[Day 17](#day-17) **06/07/2020**|Add Search Bar|[Day 18](#day-18) **06/08/2020**|Add Search Query|
 
 ----------
 
@@ -309,6 +309,23 @@
 
 - Add search query
 
+<a name="day-18"></a>
+### Day 18: June 08, 2020
+
+**Today's Focus**: Added Search Query
+
+**Progress**: 
+
+- Added search query, possibly need to improve db lookup performance in future
+- Made search bar look prettier
+- Minor refactoring to clean up code with images and brand names on frontend
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/3741e9cccc9c9bfa10461f953fc5225ede56b6a9)
+
+**Todo Tomorrow**:
+
+- Add categories to backend and frontend
+
 <!--
 
 days missed: 4 :(
@@ -330,6 +347,7 @@ template
 
 - 
 - Write parsers for different kinds of notes
+- Possibly improve db performance?
 
 -----
 

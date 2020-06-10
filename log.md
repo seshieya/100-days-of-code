@@ -13,7 +13,7 @@
 |[Day 13](#day-13) **06/03/2020**|Fetch Notes from React|[Day 14](#day-14) **06/04/2020**|Display Multiple Notes in UI|
 |[Day 15](#day-15) **06/05/2020**|Render HTML Strings|[Day 16](#day-16) **06/06/2020**|Modal State Management|
 |[Day 17](#day-17) **06/07/2020**|Add Search Bar|[Day 18](#day-18) **06/08/2020**|Add Search Query|
-
+|[Day 19](#day-19) **06/09/2020**|Add Categories|
 ----------
 
 <a name="day-0"></a>
@@ -312,7 +312,7 @@
 <a name="day-18"></a>
 ### Day 18: June 08, 2020
 
-**Today's Focus**: Added Search Query
+**Today's Focus**: Add Search Query
 
 **Progress**: 
 
@@ -325,6 +325,22 @@
 **Todo Tomorrow**:
 
 - Add categories to backend and frontend
+
+<a name="day-19"></a>
+### Day 19: June 09, 2020
+
+**Today's Focus**: Add Categories
+
+**Progress**: 
+
+- Added categories and rough implementation of it on frontend
+- Minor refactoring to give classes better names
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/f698c78d68edd6d9cffda788700e9a1c287a37eb)
+
+**Todo Tomorrow**:
+
+- Make categories pretty on frontend
 
 <!--
 

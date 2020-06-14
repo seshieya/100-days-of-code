@@ -13,7 +13,7 @@
 |[Day 13](#day-13) **06/03/2020**|Fetch Notes from React|[Day 14](#day-14) **06/04/2020**|Display Multiple Notes in UI|
 |[Day 15](#day-15) **06/05/2020**|Render HTML Strings|[Day 16](#day-16) **06/06/2020**|Modal State Management|
 |[Day 17](#day-17) **06/07/2020**|Add Search Bar|[Day 18](#day-18) **06/08/2020**|Add Search Query|
-|[Day 19](#day-19) **06/09/2020**|Add Categories|
+|[Day 19](#day-19) **06/09/2020**|Add Categories|[Day 20](#day-20) **06/13/2020**|Filter Categories|
 ----------
 
 <a name="day-0"></a>
@@ -342,9 +342,24 @@
 
 - Make categories pretty on frontend
 
+<a name="day-20"></a>
+### Day 20: June 13, 2020
+
+**Today's Focus**: Filter Categories
+
+**Progress**: 
+
+- Filter categories on frontend
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/6f1ea0f247e5679962769957228d01eec881d566)
+
+**Todo Tomorrow**:
+
+- Continue working on categories on frontend
+
 <!--
 
-days missed: 4 :(
+days missed: 7 :(
 
 template
 
@@ -363,7 +378,7 @@ template
 
 - 
 - Write parsers for different kinds of notes
-- Possibly improve db performance?
+- Possibly improve db performance? <-- for what??
 
 -----
 

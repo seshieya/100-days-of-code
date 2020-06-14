@@ -13,7 +13,9 @@
 |[Day 13](#day-13) **06/03/2020**|Fetch Notes from React|[Day 14](#day-14) **06/04/2020**|Display Multiple Notes in UI|
 |[Day 15](#day-15) **06/05/2020**|Render HTML Strings|[Day 16](#day-16) **06/06/2020**|Modal State Management|
 |[Day 17](#day-17) **06/07/2020**|Add Search Bar|[Day 18](#day-18) **06/08/2020**|Add Search Query|
-|[Day 19](#day-19) **06/09/2020**|Add Categories|[Day 20](#day-20) **06/13/2020**|Filter Categories|
+|[Day 19](#day-19) **06/09/2020**|Add Categories|[Day 20](#day-20) **06/13/2020**|Filter Categories Functionality|
+|[Day 21](#day-21) **06/14/2020**|Filter Categories And Search Behaviour|
+
 ----------
 
 <a name="day-0"></a>
@@ -345,7 +347,7 @@
 <a name="day-20"></a>
 ### Day 20: June 13, 2020
 
-**Today's Focus**: Filter Categories
+**Today's Focus**: Filter Categories Functionality
 
 **Progress**: 
 
@@ -356,6 +358,22 @@
 **Todo Tomorrow**:
 
 - Continue working on categories on frontend
+
+<a name="day-21"></a>
+### Day 21: June 14, 2020
+
+**Today's Focus**: Filter Categories And Search Behaviour
+
+**Progress**: 
+
+- Improved Search UX by adding reset search button in place of filter option when search term present
+- Multiple filters can be applied to resources
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/ca7b742c98a283b110d2b2f960e3ef15624a666c)
+
+**Todo Tomorrow**:
+
+- write parsers for different kinds of notes
 
 <!--
 
@@ -378,7 +396,7 @@ template
 
 - 
 - Write parsers for different kinds of notes
-- Possibly improve db performance? <-- for what??
+- Possibly improve db performance? <-- for what?? don't remember.... was it full text search for company name?
 
 -----
 

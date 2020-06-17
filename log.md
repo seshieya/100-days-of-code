@@ -14,7 +14,7 @@
 |[Day 15](#day-15) **06/05/2020**|Render HTML Strings|[Day 16](#day-16) **06/06/2020**|Modal State Management|
 |[Day 17](#day-17) **06/07/2020**|Add Search Bar|[Day 18](#day-18) **06/08/2020**|Add Search Query|
 |[Day 19](#day-19) **06/09/2020**|Add Categories|[Day 20](#day-20) **06/13/2020**|Filter Categories Functionality|
-|[Day 21](#day-21) **06/14/2020**|Filter Categories And Search Behaviour|
+|[Day 21](#day-21) **06/14/2020**|Filter Categories And Search Behaviour|[Day 22](#day-22) **06/16/2020**|Research How to Parse Resource|
 
 ----------
 
@@ -375,9 +375,23 @@
 
 - write parsers for different kinds of notes
 
+<a name="day-22"></a>
+### Day 22: June 16, 2020
+
+**Today's Focus**: Research How to Parse Resource
+
+**Progress**: 
+
+- Brainstormed how to parse arbitrarily formatted dates...
+
+**Links to work**: None as just brainstorming
+
+**Todo Tomorrow**:
+
+- Continue brainstorm parsing dates and possibly start writing parser...
 <!--
 
-days missed: 7 :(
+days missed: 8 :(
 
 template
 

@@ -15,6 +15,7 @@
 |[Day 17](#day-17) **06/07/2020**|Add Search Bar|[Day 18](#day-18) **06/08/2020**|Add Search Query|
 |[Day 19](#day-19) **06/09/2020**|Add Categories|[Day 20](#day-20) **06/13/2020**|Filter Categories Functionality|
 |[Day 21](#day-21) **06/14/2020**|Filter Categories And Search Behaviour|[Day 22](#day-22) **06/16/2020**|Research How to Parse Resource|
+|[Day 23](#day-23) **06/20/2020**|Continue Research|
 
 ----------
 
@@ -389,9 +390,28 @@
 **Todo Tomorrow**:
 
 - Continue brainstorm parsing dates and possibly start writing parser...
+
+<a name="day-23"></a>
+### Day 23: June 20, 2020
+
+**Today's Focus**: Continue Research
+
+**Progress**: 
+
+- Continued research on how to parse resource 
+
+**Links to work**: None as just brainstorming
+
+**Todo Tomorrow**: 
+
+- Implement parsing
+
 <!--
 
-days missed: 8 :(
+- check if the text contains the month in actual words, after the * 
+
+
+days missed: 11 :(
 
 template
 

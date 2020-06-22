@@ -15,7 +15,7 @@
 |[Day 17](#day-17) **06/07/2020**|Add Search Bar|[Day 18](#day-18) **06/08/2020**|Add Search Query|
 |[Day 19](#day-19) **06/09/2020**|Add Categories|[Day 20](#day-20) **06/13/2020**|Filter Categories Functionality|
 |[Day 21](#day-21) **06/14/2020**|Filter Categories And Search Behaviour|[Day 22](#day-22) **06/16/2020**|Research How to Parse Resource|
-|[Day 23](#day-23) **06/20/2020**|Continue Research|
+|[Day 23](#day-23) **06/20/2020**|Continue Research|[Day 24](#day-24) **06/21/2020**|Added Date Parser|
 
 ----------
 
@@ -405,6 +405,23 @@
 **Todo Tomorrow**: 
 
 - Implement parsing
+
+<a name="day-24"></a>
+### Day 24: June 21, 2020
+
+**Today's Focus**: Added Date Parser 
+
+**Progress**: 
+
+- Added date parser to cover all formats provided by the Resources
+- Added specific resource parsers to some Brands
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/6ea6a2c8622fe74ca71b07093a46889cdedea66c)
+
+**Todo Tomorrow**:
+
+- Refactor resource specific parsing into own services
+- OR work on frontend to add an "Ends" page
 
 <!--
 

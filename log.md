@@ -423,9 +423,22 @@
 - Refactor resource specific parsing into own services
 - OR work on frontend to add an "Ends" page
 
-<!--
+<a name="day-25"></a>
+### Day 25: June 27, 2020
 
-- check if the text contains the month in actual words, after the * 
+**Today's Focus**: Added Sort by End Filter
+
+**Progress**: 
+
+- Instead of adding an "Ends" page to the frontend, added and "Ends" filter to sort the resources
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/ac1df7a7ffa98fbb18d7d8a32c7996d8ddeea9d7#diff-750e5ea253ebdfe710694bc0f06d2bf9)
+
+**Todo Tomorrow**:
+
+- Improve "created" and "ends" date display on the frontend
+
+<!--
 
 
 days missed: 11 :(
@@ -448,6 +461,8 @@ template
 - 
 - Write parsers for different kinds of notes
 - Possibly improve db performance? <-- for what?? don't remember.... was it full text search for company name?
+- Refactor resource specific parsing into own services
+
 
 -----
 

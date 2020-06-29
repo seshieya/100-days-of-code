@@ -16,6 +16,7 @@
 |[Day 19](#day-19) **06/09/2020**|Add Categories|[Day 20](#day-20) **06/13/2020**|Filter Categories Functionality|
 |[Day 21](#day-21) **06/14/2020**|Filter Categories And Search Behaviour|[Day 22](#day-22) **06/16/2020**|Research How to Parse Resource|
 |[Day 23](#day-23) **06/20/2020**|Continue Research|[Day 24](#day-24) **06/21/2020**|Added Date Parser|
+|[Day 25](#day-25) **06/27/2020**|Add Sort By Ends Filter|[Day 26](#day-26) **06/28/2020**|Show Created Date and Apply Consistent Sorting|
 
 ----------
 
@@ -409,7 +410,7 @@
 <a name="day-24"></a>
 ### Day 24: June 21, 2020
 
-**Today's Focus**: Added Date Parser 
+**Today's Focus**: Add Date Parser 
 
 **Progress**: 
 
@@ -426,22 +427,41 @@
 <a name="day-25"></a>
 ### Day 25: June 27, 2020
 
-**Today's Focus**: Added Sort by End Filter
+**Today's Focus**: Add Sort by Ends Filter
 
 **Progress**: 
 
 - Instead of adding an "Ends" page to the frontend, added and "Ends" filter to sort the resources
 
-**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/ac1df7a7ffa98fbb18d7d8a32c7996d8ddeea9d7#diff-750e5ea253ebdfe710694bc0f06d2bf9)
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/ac1df7a7ffa98fbb18d7d8a32c7996d8ddeea9d7)
 
 **Todo Tomorrow**:
 
 - Improve "created" and "ends" date display on the frontend
+- Ensure consistent filtering is applied when filtering by categories (if end is applied first, it should be applied to categories too)
+
+<a name="day-26"></a>
+### Day 26: June 28, 2020
+
+**Today's Focus**: Show Created Date and Apply Consistent Sorting
+
+**Progress**: 
+
+- Added created date and time to be shown on frontend
+- Sorting is consistent now when applying different category filters and when searching 
+- Toggle sorting by ends date
+
+**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/4b130ea50e05cb64ca1905138889c38efb86edce)
+
+**Todo Tomorrow**:
+
+- Write parsers for different kinds of resources
+- Refactor resource specific parsing into own services
 
 <!--
 
 
-days missed: 11 :(
+days missed: 18?? lost count :(
 
 template
 
@@ -458,11 +478,11 @@ template
 
 **Todo Tomorrow**:
 
-- 
-- Write parsers for different kinds of notes
+- - Write parsers for different kinds of resources
 - Possibly improve db performance? <-- for what?? don't remember.... was it full text search for company name?
 - Refactor resource specific parsing into own services
-
+- Frontend - where sorting logic is used is really messy right now. Need to refactor to only sort when sortBy is changed, or when filtered resources is changed
+- Need to further separate concerns in the components on frontend
 
 -----
 

@@ -16,7 +16,9 @@
 |[Day 19](#day-19) **06/09/2020**|Add Categories|[Day 20](#day-20) **06/13/2020**|Filter Categories Functionality|
 |[Day 21](#day-21) **06/14/2020**|Filter Categories And Search Behaviour|[Day 22](#day-22) **06/16/2020**|Research How to Parse Resource|
 |[Day 23](#day-23) **06/20/2020**|Continue Research|[Day 24](#day-24) **06/21/2020**|Added Date Parser|
-|[Day 25](#day-25) **06/27/2020**|Add Sort By Ends Filter|[Day 26](#day-26) **06/28/2020**|Show Created Date and Apply Consistent Sorting|
+|[Day 25](#day-25) **06/26/2020**|Algo Arrays|[Day 26](#day-26) **06/27/2020**|Algo Arrays & Resources Add Sort by Ends Filter|
+|[Day 27](#day-27) **06/28/2020**|Algo Questions & Resources Show Created & Apply Consistent Sorting|[Day 28](#day-28) **06/30/2020**|Algo Arrays|
+|[Day 29](#day-29) **07/01/2020**|Algo Linked Lists|[Day 30](#day-30) **07/02/2020**|Algo Linked Lists|
 
 ----------
 
@@ -425,38 +427,94 @@
 - OR work on frontend to add an "Ends" page
 
 <a name="day-25"></a>
-### Day 25: June 27, 2020
+### Day 25: June 26, 2020
 
-**Today's Focus**: Add Sort by Ends Filter
+**Today's Focus**: Algo Arrays
 
 **Progress**: 
 
-- Instead of adding an "Ends" page to the frontend, added and "Ends" filter to sort the resources
+- Arrays & Strings - 1.1 Is Unique
+- Arrays & Strings - 1.2 Check Permutation
 
-**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/ac1df7a7ffa98fbb18d7d8a32c7996d8ddeea9d7)
+**Links to work**: [Algo](https://github.com/seshieya/coding.questions/commit/785eb1f7e5fbd15d490b421201729a688302f4cb)
 
-**Todo Tomorrow**:
+<a name="day-26"></a>
+### Day 26: June 27, 2020
+
+**Today's Focus**: Algo Arrays & Resources Add Sort by Ends Filter
+
+**Progress**: 
+
+- Algo
+  - Arrays & Strings - 1.3 URLify
+- Resources
+  - Instead of adding an "Ends" page to the frontend, added and "Ends" filter to sort the resources
+
+**Links to work**: 
+- [Algo](https://github.com/seshieya/coding.questions/commit/785eb1f7e5fbd15d490b421201729a688302f4cb)
+- [Resources Project](https://github.com/seshieya/WooDeals/commit/ac1df7a7ffa98fbb18d7d8a32c7996d8ddeea9d7)
+
+**Todo Tomorrow for Resources**:
 
 - Improve "created" and "ends" date display on the frontend
 - Ensure consistent filtering is applied when filtering by categories (if end is applied first, it should be applied to categories too)
 
-<a name="day-26"></a>
-### Day 26: June 28, 2020
+<a name="day-27"></a>
+### Day 27: June 28, 2020
 
-**Today's Focus**: Show Created Date and Apply Consistent Sorting
+**Today's Focus**: Algo Arrays & Resources Show Created & Apply Consistent Sorting
 
 **Progress**: 
 
-- Added created date and time to be shown on frontend
-- Sorting is consistent now when applying different category filters and when searching 
-- Toggle sorting by ends date
+- Algo
+  - Arrays & Strings - 1.4 Palindrome Permutation
+- Resources
+  - Added created date and time to be shown on frontend
+  - Sorting is consistent now when applying different category filters and when searching 
+  - Toggle sorting by ends date
 
-**Links to work**: [Resources Project](https://github.com/seshieya/WooDeals/commit/4b130ea50e05cb64ca1905138889c38efb86edce)
+**Links to work**: 
+- [Algo](https://github.com/seshieya/coding.questions/commit/785eb1f7e5fbd15d490b421201729a688302f4cb)
+- [Resources Project](https://github.com/seshieya/WooDeals/commit/4b130ea50e05cb64ca1905138889c38efb86edce)
 
-**Todo Tomorrow**:
+**Todo Next Time For Resources**:
 
 - Write parsers for different kinds of resources
 - Refactor resource specific parsing into own services
+
+<a name="day-28"></a>
+### Day 28: June 30, 2020
+
+**Today's Focus**: Algo Arrays
+
+**Progress**: 
+
+- Arrays & Strings - 1.5 One Away
+
+**Links to work**: [Algo](https://github.com/seshieya/coding.questions/commit/d42247d002262720d2033d30bc2c06965b7225de)
+
+<a name="day-29"></a>
+### Day 29: July 1, 2020
+
+**Today's Focus**: Algo Linked Lists
+
+**Progress**: 
+
+- Reviewed Linked Lists
+- Linked Lists - 2.1 Remove Dups
+
+**Links to work**: [Algo](https://github.com/seshieya/coding.questions/commit/d42247d002262720d2033d30bc2c06965b7225de)
+
+<a name="day-30"></a>
+### Day 30: July 2, 2020
+
+**Today's Focus**: Algo Linked Lists
+
+**Progress**: 
+
+- Linked Lists - 2.2 Return Kth To Last (in progress)
+
+**Links to work**: None as question in progress
 
 <!--
 
@@ -476,9 +534,10 @@ template
 
 **Links to work**: [Resources Project]()
 
-**Todo Tomorrow**:
+**Todo Next Time**:
 
-- - Write parsers for different kinds of resources
+- 
+- Write parsers for different kinds of resources
 - Possibly improve db performance? <-- for what?? don't remember.... was it full text search for company name?
 - Refactor resource specific parsing into own services
 - Frontend - where sorting logic is used is really messy right now. Need to refactor to only sort when sortBy is changed, or when filtered resources is changed

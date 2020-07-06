@@ -19,6 +19,7 @@
 |[Day 25](#day-25) **06/26/2020**|Algo Arrays|[Day 26](#day-26) **06/27/2020**|Algo Arrays & Resources Add Sort by Ends Filter|
 |[Day 27](#day-27) **06/28/2020**|Algo Questions & Resources Show Created & Apply Consistent Sorting|[Day 28](#day-28) **06/30/2020**|Algo Arrays|
 |[Day 29](#day-29) **07/01/2020**|Algo Linked Lists|[Day 30](#day-30) **07/02/2020**|Algo Linked Lists|
+|[Day 31](#day-31) **07/05/2020**|Algo Linked Lists|
 
 ----------
 

@@ -516,6 +516,21 @@
 
 **Links to work**: None as question in progress
 
+<a name="day-31"></a>
+### Day : July 5, 2020
+
+**Today's Focus**: Algo Linked Lists
+
+**Progress**: 
+
+- Linked Lists - 2.2 Return Kth To Last - Made solution 2
+
+**Links to work**: [Algo](https://github.com/seshieya/coding.questions/commit/4a6a145c7b2f88bf128f3e51cf57d2a3113655b6)
+
+**Todo Next Time**:
+
+- 
+
 <!--
 
 
@@ -524,7 +539,7 @@ days missed: 18?? lost count :(
 template
 
 <a name="day-"></a>
-### Day : June , 2020
+### Day : July , 2020
 
 **Today's Focus**: 
 

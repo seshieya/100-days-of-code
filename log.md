@@ -19,7 +19,7 @@
 |[Day 25](#day-25) **06/26/2020**|Algo Arrays|[Day 26](#day-26) **06/27/2020**|Algo Arrays & Resources Add Sort by Ends Filter|
 |[Day 27](#day-27) **06/28/2020**|Algo Questions & Resources Show Created & Apply Consistent Sorting|[Day 28](#day-28) **06/30/2020**|Algo Arrays|
 |[Day 29](#day-29) **07/01/2020**|Algo Linked Lists|[Day 30](#day-30) **07/02/2020**|Algo Linked Lists|
-|[Day 31](#day-31) **07/05/2020**|Algo Linked Lists|
+|[Day 31](#day-31) **07/05/2020**|Algo Linked Lists|[Day 32](#day-32) **07/11/2020**|Add Specific Resource Parsers|
 
 ----------
 
@@ -528,9 +528,22 @@
 
 **Links to work**: [Algo](https://github.com/seshieya/coding.questions/commit/4a6a145c7b2f88bf128f3e51cf57d2a3113655b6)
 
+<a name="day-32"></a>
+### Day : July 11, 2020
+
+**Today's Focus**: Add Specific Resource Parsers
+
+**Progress**: 
+
+- Added some resource parsers and unit tests
+
+**Links to work**: 
+- [Resources Project](https://github.com/seshieya/WooDeals/commit/48d83e48ae2f48937e5658ba62c04cbcfcacf4fa)
+
 **Todo Next Time**:
 
-- 
+- Continue adding resource parsers
+- Register parsers in startup and use service resolver
 
 <!--
 
@@ -548,7 +561,9 @@ template
 
 - 
 
-**Links to work**: [Resources Project]()
+**Links to work**: 
+- [Resources Project]()
+- [Algo]()
 
 **Todo Next Time**:
 

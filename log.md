@@ -529,7 +529,7 @@
 **Links to work**: [Algo](https://github.com/seshieya/coding.questions/commit/4a6a145c7b2f88bf128f3e51cf57d2a3113655b6)
 
 <a name="day-32"></a>
-### Day : July 11, 2020
+### Day 32: July 11, 2020
 
 **Today's Focus**: Add Specific Resource Parsers
 
@@ -544,6 +544,30 @@
 
 - Continue adding resource parsers
 - Register parsers in startup and use service resolver
+
+<a name="day-33"></a>
+### Day 33: July 19, 2020
+
+**Today's Focus**: Algo Stacks
+
+**Progress**: 
+
+- Reviewed stacks 
+
+**Links to work**: 
+- [Algo]()
+
+<a name="day-34"></a>
+### Day 34: July 22, 2020
+
+**Today's Focus**: Algo Stacks
+
+**Progress**: 
+
+- Implemented fibonacci sequence iteratively using stacks 
+
+**Links to work**: 
+- [Algo]()
 
 <!--
 

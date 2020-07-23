@@ -554,8 +554,7 @@
 
 - Reviewed stacks 
 
-**Links to work**: 
-- [Algo]()
+**Links to work**: None today
 
 <a name="day-34"></a>
 ### Day 34: July 22, 2020
@@ -567,7 +566,7 @@
 - Implemented fibonacci sequence iteratively using stacks 
 
 **Links to work**: 
-- [Algo]()
+- [Algo](https://github.com/seshieya/coding.questions/commit/82e5c85f96daff83c02f491a9ae51c101db7ba01)
 
 <!--
 

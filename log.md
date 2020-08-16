@@ -20,6 +20,9 @@
 |[Day 27](#day-27) **06/28/2020**|Algo Questions & Resources Show Created & Apply Consistent Sorting|[Day 28](#day-28) **06/30/2020**|Algo Arrays|
 |[Day 29](#day-29) **07/01/2020**|Algo Linked Lists|[Day 30](#day-30) **07/02/2020**|Algo Linked Lists|
 |[Day 31](#day-31) **07/05/2020**|Algo Linked Lists|[Day 32](#day-32) **07/11/2020**|Add Specific Resource Parsers|
+|[Day 33](#day-33) **07/19/2020**|Algo Stacks|[Day 34](#day-34) **07/22/2020**|Algo Stacks|
+|[Day 35](#day-34) **08/15/2020**|Fix Parsers|
+
 
 ----------
 
@@ -567,6 +570,20 @@
 
 **Links to work**: 
 - [Algo](https://github.com/seshieya/coding.questions/commit/82e5c85f96daff83c02f491a9ae51c101db7ba01)
+
+<a name="day-35"></a>
+### Day 35: August 15, 2020
+
+**Today's Focus**: Fix Parsers
+
+**Progress**: 
+
+- Registered parsers in a parser resolver
+- Fixed parsing end date returning null when the date includes a suffix such as "1st, 2nd, 3rd, 4th"
+
+**Links to work**: 
+- [Resources Project](https://github.com/seshieya/WooDeals/commit/ad50f816c24e735c00b403841601a7c634fc71d6)
+
 
 <!--
 
